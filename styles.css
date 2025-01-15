@@ -1,0 +1,84 @@
+/* Stylish and visually appealing styles for the navigation menu */
+body {
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    color: #333;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .navbar.scrolled {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .navbar a:hover {
+    color: #2575fc;
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content {
+    margin-top: 100px;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  section {
+    padding: 5rem 0;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  section:nth-child(even) {
+    background: #f7f8fa;
+  }
+  
+  section:hover {
+    background: #e3f2fd;
+  }
+  
+  section:last-child {
+    border-bottom: none;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #495057;
+  }
+  
+  p {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
